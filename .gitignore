@@ -37,4 +37,36 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
-android
+# Android/IntelliJ
+android/build/
+android/.gradle
+android/local.properties
+android/.idea/
+android/*.iml
+android/.gradle/
+android/app/build/
+android/app/release/
+android/app/*.apk
+android/app/*.aab
+
+# Node modules
+node_modules/
+
+# iOS
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+ios/*.xcworkspace
+ios/*.xcodeproj/*
+!ios/*.xcodeproj/project.pbxproj
+!ios/*.xcodeproj/xcshareddata/
+
+# React Native
+.expo/
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+.DS_Store
+*.pem
+.env*.local
+*.tsbuildinfo
